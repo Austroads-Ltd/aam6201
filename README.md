@@ -16,6 +16,8 @@ A separate directory includes all files necessary to reproduce our methods in ea
 
 Both case studies were developed using open-source Python data science tools, such as Python, NumPy and Pandas. A complete list of dependencies can be found in the `requirements.txt` files in each top-level directory.
 
+The case studies are implemented as Jupyter Notebooks, which allow source code to be interleaved with commentary about the methods.
+
 ## Project information
 More information about the project can be found at:
 
