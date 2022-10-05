@@ -1,0 +1,14 @@
+category,resurfacing_ac,resurfacing_ss,rehabilitation,major patching,regulation,retexturing
+surface material_ss,-1,1,0,0,0,0
+surface age,1,1,1,0,0,0
+iri,0,0,1,0,0,0
+rut,0,0,1,0,0,0
+pavement type_rigid,1,-1,0,0,0,0
+pavement type_flexible,-1,1,0,0,0,0
+d0,0,0,1,0,0,0
+d200,0,0,1,0,0,0
+pavement age,1,1,1,0,0,0
+crack%,1,1,0,0,0,0
+aadt,1,-1,1,0,0,0
+heavyindex,-1,-1,1,0,0,0
+texture_loss,-1,1,0,0,0,0

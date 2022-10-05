@@ -1,0 +1,103 @@
+Index,Jurisdiction,Specific Category Value,Count,Generic Category,Comment,Notes
+0,MRWA,20.01 Granular overlay,658,Rehabilitation,Change,MRWA values are already stripped of their network cluster name
+1,MRWA,20.02 Double Lift Stabilisation,274,Rehabilitation,,MRWA values are already stripped of their network cluster name
+2,MRWA,20.03 Structural Asphalt Overlay,10,Rehabilitation,,MRWA values are already stripped of their network cluster name
+3,MRWA,20.04 Asphalt Plane & Resurface,82,Rehabilitation,,MRWA values are already stripped of their network cluster name
+4,MRWA,30.01 Resurface,9030,Resurfacing_AC,Confirmed by WA to be AC not SS,MRWA values are already stripped of their network cluster name
+5,MRWA,30.02 Shoulder Surfacing,12,,"Agreed N/A, as no data for Shoulders",MRWA values are already stripped of their network cluster name
+6,MRWA,30.03 Plane and Resurface,1694,Resurfacing_AC,Highly unlikely a seal would be planed / milled.  Not sure why different to 20.04. Check costs for 20.04 and 30.03 are similar.,MRWA values are already stripped of their network cluster name
+7,MRWA,30.08 Bridge Deck & Abutment Asphalt Seal,98,Resurfacing_AC,,MRWA values are already stripped of their network cluster name
+8,MRWA,30.17 Main Roads Project Management & Supervision,102,,,MRWA values are already stripped of their network cluster name
+9,MRWA,31.01 Reseal,4419,Resurfacing_SS,,MRWA values are already stripped of their network cluster name
+10,MRWA,31.02 Sealing,40,Resurfacing_SS,,MRWA values are already stripped of their network cluster name
+11,MRWA,31.03 2nd Coat Seal,243,Resurfacing_SS,,MRWA values are already stripped of their network cluster name
+12,MRWA,31.04 Double Seal,261,Resurfacing_SS,,MRWA values are already stripped of their network cluster name
+13,MRWA,31.05 Single/Double seal,1,Resurfacing_SS,,MRWA values are already stripped of their network cluster name
+14,MRWA,31.06 Shoulder Sealing,2143,,"Agreed N/A, as no data for Shoulders",MRWA values are already stripped of their network cluster name
+15,MRWA,31.07 Reseal PMB,7415,Resurfacing_SS,,MRWA values are already stripped of their network cluster name
+16,MRWA,31.08 Patch/Strip Surfacing,62,Resurfacing_SS,,MRWA values are already stripped of their network cluster name
+17,MRWA,31.09 Microsurfacing,386,Resurfacing_SS,Actually a thin AC.  But doesn't regulate and cheaper than typical AC overlay.  Suggest excluding as may confuse the model.,MRWA values are already stripped of their network cluster name
+18,MRWA,31.10 Enrichments,11,Retexturing,,MRWA values are already stripped of their network cluster name
+19,MRWA,31.11 Geotextile Reinforced Reseals (GRS),51,Resurfacing_SS,,MRWA values are already stripped of their network cluster name
+20,MRWA,31.12 Water Cutting,3,Retexturing,"Naming. Delete ""…is…""",MRWA values are already stripped of their network cluster name
+21,MRWA,31.17 Main Roads Project Management and Supervision,202,,,MRWA values are already stripped of their network cluster name
+22,MRWA,31.18 Dump Site Preparation and Management,303,,,MRWA values are already stripped of their network cluster name
+23,VIC,AO-Thin Asphalt Overlay,724,Resurfacing_AC,,VIC values are already stripped of more detailed explanations
+24,VIC,Asphalt - Remove and Replace,43,Resurfacing_AC,,VIC values are already stripped of more detailed explanations
+25,VIC,Asphalt Overlay > 40mm/ R&R Asphalt,1,Rehabilitation,Maybe check with Bruce.  If >40mm is it structural and thyerefore rehabilitation?,VIC values are already stripped of more detailed explanations
+26,VIC,FS-Final Seal,324,Resurfacing_SS,,VIC values are already stripped of more detailed explanations
+27,VIC,Final Seal,6,Resurfacing_SS,,VIC values are already stripped of more detailed explanations
+28,VIC,GEO,45,Resurfacing_SS,,VIC values are already stripped of more detailed explanations
+29,VIC,GR-Granular Resheet,75,Rehabilitation,Change,VIC values are already stripped of more detailed explanations
+30,VIC,GS-Geotextile Seal,403,Resurfacing_SS,,VIC values are already stripped of more detailed explanations
+31,VIC,MP-Major Patching,245,Major Patching,,VIC values are already stripped of more detailed explanations
+32,VIC,MS-Modified Seal,2587,Resurfacing_SS,,VIC values are already stripped of more detailed explanations
+33,VIC,Mod Reseal BSRS 10 (SAM),9,Resurfacing_SS,,VIC values are already stripped of more detailed explanations
+34,VIC,Mod Reseal BSRS 14 (SAM),30,Resurfacing_SS,,VIC values are already stripped of more detailed explanations
+35,VIC,OGA,1,Resurfacing_AC,,VIC values are already stripped of more detailed explanations
+36,VIC,RC-Reconstruction,212,Rehabilitation,,VIC values are already stripped of more detailed explanations
+37,VIC,RG-Regulation,13,Regulation,,VIC values are already stripped of more detailed explanations
+38,VIC,RHSS (High Strength Seal) 10,9,Resurfacing_SS,,VIC values are already stripped of more detailed explanations
+39,VIC,RHSS (High Strength Seal) 14,3,Resurfacing_SS,,VIC values are already stripped of more detailed explanations
+40,VIC,RHSS (High Strength Seal) 7,2,Resurfacing_SS,,VIC values are already stripped of more detailed explanations
+41,VIC,RR-Remove & Replace,1044,Resurfacing_AC,Highly unlikely a seal would be removed before resealing.  Check costs - expect to be similar to Thin Asphalt Overlay.,VIC values are already stripped of more detailed explanations
+42,VIC,RS-Reseal,1572,Resurfacing_SS,,VIC values are already stripped of more detailed explanations
+43,VIC,RW-Rejuvenate/Water Blast,240,Retexturing,"Naming. Delete ""…is…""",VIC values are already stripped of more detailed explanations
+44,VIC,Reseal 14,1,Resurfacing_SS,Change,VIC values are already stripped of more detailed explanations
+45,VIC,Reseal 14/7,2,Resurfacing_SS,,VIC values are already stripped of more detailed explanations
+46,VIC,Reseal 7,88,Resurfacing_SS,,VIC values are already stripped of more detailed explanations
+47,VIC,Resheet/ Rip & Reseal,1,Rehabilitation,Change,VIC values are already stripped of more detailed explanations
+48,VIC,SS-Slurry Seal,321,Regulation,Change,VIC values are already stripped of more detailed explanations
+49,VIC,ST-Stabilisation,78,Rehabilitation,,VIC values are already stripped of more detailed explanations
+50,VIC,Slurry Seal,27,Regulation,Change,VIC values are already stripped of more detailed explanations
+51,VIC,Stabilisation,16,Rehabilitation,,VIC values are already stripped of more detailed explanations
+52,VIC,XSS Extreme Stress Seal 14/7,42,Resurfacing_SS,,VIC values are already stripped of more detailed explanations
+53,VIC,XX-,19,,,VIC values are already stripped of more detailed explanations
+54,NZTA,AC_{number}{_PMB_L1/2},131,Resurfacing_AC,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+55,NZTA,AWT,5,Rehabilitation,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+56,NZTA,CAPE,9,Resurfacing_SS,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+57,NZTA,COMBI,69,Resurfacing_SS,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+58,NZTA,Calc_Baux_DG14,3,,"Calcined Bauxite is not an AC - it is an expensive sprayed seal (used for high skid resistance). Exclude, so as not to confuse model.","NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+59,NZTA,{EM/HS}OGPA{_L{2/3}},538,Resurfacing_AC,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+60,NZTA,FABSEAL,6,Resurfacing_SS,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+61,NZTA,FBS,37,Rehabilitation,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+62,NZTA,FBSMUP,67,Rehabilitation,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+63,NZTA,G{2/3/4/5/6}_{TWOC/RACK/PME/VFILL}_L{1/2},101,Resurfacing_SS,Change,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+64,NZTA,GRS{2/3/4/5/6}{W},20,Resurfacing_SS,Change,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+65,NZTA,HSOGPA,105,Resurfacing_AC,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+66,NZTA,HVYMTC_CS,2,Major Patching,"Not certain, but I think Heavy Maintenance is code for Major Patching","NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+67,NZTA,INSTAB,1,Rehabilitation,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+68,NZTA,InStab,6,Rehabilitation,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+69,NZTA,OGPA_OLAY,1,Resurfacing_AC,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+70,NZTA,OLAY{D}{_CTB},119,Rehabilitation,Change,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+71,NZTA,PMOGPA,199,Resurfacing_AC,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+72,NZTA,PROJ{_TACK},89,,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+73,NZTA,R5,2,Resurfacing_SS,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+74,NZTA,RECON,4,Rehabilitation,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+75,NZTA,RECY{_SH15},20,Rehabilitation,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+76,NZTA,REJUV,108,Retexturing,"Naming. Delete ""…is…"" RJUV, RJVN and REJUV are presumably all the same thing - rejuvenation","NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+77,NZTA,RHAB{_F/FBS/OL/SH_15},313,Rehabilitation,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+78,NZTA,RHFBS,4,Rehabilitation,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+79,NZTA,RHOL,5,Rehabilitation,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+80,NZTA,RHST,3,Rehabilitation,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+83,NZTA,RMUP{D},15,Rehabilitation,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+84,NZTA,RS{2/3/4/5/6}{M/C/G/P/R/RMS/RPV/S/W/WV/etc.}_{SH15},6003,Resurfacing_SS,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+85,NZTA,SAC,157,Rehabilitation,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+86,NZTA,"SAC,TAC",3,Rehabilitation,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+87,NZTA,SLRY,4,Regulation,Change,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+88,NZTA,SMA{_SS},379,Resurfacing_AC,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+89,NZTA,SSEAL{MS},29,Resurfacing_SS,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+90,NZTA,TAC_{SH15/HvyMtc},791,Major Patching,"Not certain, but I think Heavy Maintenance is code for Major Patching","NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+91,NZTA,UTA_{Poly}_{L1/2},133,Resurfacing_AC,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+92,NZTA,VF,6,Resurfacing_SS,,"NZ values are already reduced to a shortened form based on string patterns. A general category for the value is already provided in the dataset: asphalt, chipseal surfacing, and rehab"
+93,NSW,SS,70050,Resurfacing_SS,,
+94,NSW,FlexRehab,10640,Rehabilitation,,
+95,NSW,AC,9766,Resurfacing_AC,,
+96,NSW,FlexRehab_light,8475,Rehabilitation,,
+97,NSW,Rut Correction,1206,Regulation,,
+98,NSW,ConcRehab,691,drop,,
+99,NSW,Non_MP_project,674,drop,,
+100,NSW,SS_holding,558,Resurfacing_SS,,
+101,NSW,FlexRehabLight,509,Rehabilitation,,
+102,NSW,Widening,296,drop,,
+103,NSW,ConcRehab_light,30,drop,,
