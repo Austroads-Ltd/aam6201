@@ -1,0 +1,42 @@
+RangeIndex: 27500 entries, 0 to 27499
+Data columns (total 36 columns):
+ #   Column                                                                   Non-Null Count  Dtype         
+---  ------                                                                   --------------  -----         
+ 0   (Do Not Modify) TYNDP Linked Treatment Task                              27500 non-null  object        
+ 1   (Do Not Modify) Row Checksum                                             27500 non-null  object        
+ 2   (Do Not Modify) Modified On                                              27500 non-null  datetime64[ns]
+ 3   TYNDP Occurrences                                                        27500 non-null  object        
+ 4   Financial Year                                                           27500 non-null  object        
+ 5   ID Seq                                                                   27500 non-null  object        
+ 6   Work Type (TYNDP Occurrences) (TYNDP Occurrences)                        27500 non-null  object        
+ 7   Treatment Type                                                           27500 non-null  object        
+ 8   Treatment                                                                27500 non-null  object        
+ 9   Year Number (Financial Year) (Financial Year)                            27500 non-null  int64         
+ 10  Year Offset                                                              27500 non-null  int64         
+ 11  Funding Source                                                           27500 non-null  object        
+ 12  Region (TYNDP Occurrences) (TYNDP Occurrences)                           27500 non-null  object        
+ 13  Delivery Method (TYNDP Occurrences) (TYNDP Occurrences)                  27500 non-null  object        
+ 14  Road Number (Road Section) (Road Section)                                26465 non-null  object        
+ 15  Location Asset (TYNDP Occurrences) (TYNDP Occurrences)                   27500 non-null  object        
+ 16  Road Section (TYNDP Occurrences) (TYNDP Occurrences)                     27500 non-null  object        
+ 17  TYNDP Carriageway                                                        21796 non-null  object        
+ 18  SLK From (TYNDP Occurrences) (TYNDP Occurrences)                         27500 non-null  float64       
+ 19  SLK To (TYNDP Occurrences) (TYNDP Occurrences)                           27500 non-null  float64       
+ 20  Width (TYNDP Occurrences) (TYNDP Occurrences)                            27496 non-null  float64       
+ 21  Length (m) (TYNDP Occurrences) (TYNDP Occurrences)                       27496 non-null  float64       
+ 22  Priority                                                                 27500 non-null  object        
+ 23  Financial Status                                                         27500 non-null  object        
+ 24  Comments                                                                 18766 non-null  object        
+ 25  Percentage                                                               17265 non-null  float64       
+ 26  Unit                                                                     27500 non-null  object        
+ 27  Qty                                                                      27500 non-null  float64       
+ 28  Rate                                                                     27500 non-null  float64       
+ 29  Project Rate                                                             299 non-null    float64       
+ 30  $                                                                        27500 non-null  float64       
+ 31  Task Status                                                              27500 non-null  object        
+ 32  Status                                                                   27500 non-null  object        
+ 33  Original Planned Financial Year (TYNDP Occurrences) (TYNDP Occurrences)  27500 non-null  object        
+ 34  Created On                                                               27500 non-null  datetime64[ns]
+ 35  Modified On                                                              27500 non-null  datetime64[ns]
+dtypes: datetime64[ns](3), float64(9), int64(2), object(22)
+memory usage: 7.6+ MB

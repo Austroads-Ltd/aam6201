@@ -1,0 +1,36 @@
+RangeIndex: 10367 entries, 0 to 10366
+Data columns (total 30 columns):
+ #   Column              Non-Null Count  Dtype         
+---  ------              --------------  -----         
+ 0   Road                10367 non-null  object        
+ 1   Start               10367 non-null  int64         
+ 2   End                 10367 non-null  int64         
+ 3   Start Name          9540 non-null   object        
+ 4   End Name            9596 non-null   object        
+ 5   Length              10367 non-null  int64         
+ 6   Width               10367 non-null  float64       
+ 7   Total Area          10367 non-null  float64       
+ 8   Area                10364 non-null  object        
+ 9   Sub-Area            8004 non-null   object        
+ 10  Hierarchy           10204 non-null  object        
+ 11  Pavement Type       10367 non-null  object        
+ 12  Pavement Use        10367 non-null  object        
+ 13  Urban/Rural         10367 non-null  object        
+ 14  Owner Type          10367 non-null  object        
+ 15  Carriageway No      10367 non-null  int64         
+ 16  Distance Break      10367 non-null  bool          
+ 17  Number of Lanes     10367 non-null  int64         
+ 18  Lane Width          6490 non-null   float64       
+ 19  Estimate Loading    10367 non-null  bool          
+ 20  Asset Owner         10367 non-null  object        
+ 21  Left Lanes          4919 non-null   float64       
+ 22  Right Lanes         4472 non-null   float64       
+ 23  Travel Direction    10367 non-null  object        
+ 24  Traffic Link        9916 non-null   object        
+ 25  Easting             190 non-null    float64       
+ 26  Northing            193 non-null    float64       
+ 27  Date Vested in RCA  35 non-null     datetime64[ns]
+ 28  Notes               1223 non-null   object        
+ 29  Traffic Link.1      9916 non-null   float64       
+dtypes: bool(2), datetime64[ns](1), float64(8), int64(5), object(14)
+memory usage: 2.2+ MB

@@ -8,7 +8,7 @@ from typing import Tuple, List
 from copy import deepcopy
 
 # load data
-from data import DATA_DIR
+from src import DATA_DIR
 DATASET = 'NZTA'
 experiment_suffix = 'nzta_final'
 train_df = util.load_data(source=DATA_DIR / 'interim' / DATASET / f'train_processed{("_" + experiment_suffix) if experiment_suffix else ""}.csv')
@@ -250,7 +250,7 @@ def make_train_label_chunk(index_chunk: pd.DataFrame, *args, **kwargs):
     return flattened_train, flattened_labels, flattened_indices
         
 
-from data import DATA_DIR
+from src import DATA_DIR
 from joblib import Parallel, delayed
 import time
 

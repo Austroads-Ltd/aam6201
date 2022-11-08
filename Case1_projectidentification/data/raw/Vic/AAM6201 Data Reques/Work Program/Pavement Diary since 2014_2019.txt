@@ -1,0 +1,28 @@
+RangeIndex: 8183 entries, 0 to 8182
+Data columns (total 22 columns):
+ #   Column                           Non-Null Count  Dtype         
+---  ------                           --------------  -----         
+ 0   Route Number                     8183 non-null   int64         
+ 1   Route Name                       8183 non-null   object        
+ 2   Direction                        7857 non-null   object        
+ 3   Lane                             8183 non-null   int64         
+ 4   From Measure                     8183 non-null   int64         
+ 5   To Measure                       8183 non-null   int64         
+ 6   Length                           8183 non-null   int64         
+ 7   Region Name                      8183 non-null   object        
+ 8   Road Maintenance Category (RMC)  8183 non-null   int64         
+ 9   Treatment Date                   8183 non-null   datetime64[ns]
+ 10  Treatment ID                     8183 non-null   int64         
+ 11  Pavement Type                    7619 non-null   object        
+ 12  Treatment Type                   7857 non-null   object        
+ 13  Treatment Description            8145 non-null   object        
+ 14  Comments                         503 non-null    object        
+ 15  Area                             8183 non-null   int64         
+ 16  Contract Number                  8183 non-null   int64         
+ 17  Job Duration                     8183 non-null   int64         
+ 18  Rate Cost Per Area               8183 non-null   float64       
+ 19  Rate Litres Per Km               8183 non-null   float64       
+ 20  Actual Cost                      8183 non-null   int64         
+ 21  Estimated Cost                   8183 non-null   int64         
+dtypes: datetime64[ns](1), float64(2), int64(12), object(7)
+memory usage: 1.4+ MB

@@ -1,0 +1,22 @@
+RangeIndex: 1048565 entries, 0 to 1048564
+Data columns (total 16 columns):
+ #   Column              Non-Null Count    Dtype  
+---  ------              --------------    -----  
+ 0   Skid Resistance ID  1048565 non-null  int64  
+ 1   NOC                 1048565 non-null  object 
+ 2   Start               1048565 non-null  int64  
+ 3   End                 1048565 non-null  int64  
+ 4   Road Name           1048565 non-null  object 
+ 5   External Name       1048565 non-null  object 
+ 6   Lane                1048565 non-null  object 
+ 7   ESC                 1048565 non-null  float64
+ 8   ESC RV              1048565 non-null  object 
+ 9   NAASRA              1048565 non-null  object 
+ 10  Rutting Mean        1048565 non-null  object 
+ 11  Wheel Path          1048565 non-null  object 
+ 12  Left Path Depth     1048565 non-null  float64
+ 13  Right Path Depth    1048565 non-null  float64
+ 14  Skid Site IL        1048565 non-null  object 
+ 15  Year                1048565 non-null  object 
+dtypes: float64(3), int64(3), object(10)
+memory usage: 128.0+ MB

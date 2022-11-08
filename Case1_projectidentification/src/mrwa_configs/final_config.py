@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-from data import DATA_DIR # path to data directory
+from src import DATA_DIR
 from src.util import ConfigNamespace
 from functools import partial
 

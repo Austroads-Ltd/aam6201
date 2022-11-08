@@ -1,0 +1,28 @@
+RangeIndex: 102895 entries, 0 to 102894
+Data columns (total 22 columns):
+ #   Column               Non-Null Count   Dtype  
+---  ------               --------------   -----  
+ 0   Region               102895 non-null  object 
+ 1   road                 102895 non-null  object 
+ 2   ElementID_subseg_no  102895 non-null  object 
+ 3   Link_No              102895 non-null  int64  
+ 4   i_Segment_Number     102895 non-null  object 
+ 5   BO_subseg_seg        102895 non-null  float64
+ 6   b_scenario           87898 non-null   object 
+ 7   n_year               102895 non-null  int64  
+ 8   Trt                  102895 non-null  object 
+ 9   Short                102895 non-null  object 
+ 10  Cost                 87898 non-null   float64
+ 11  Length_km            102895 non-null  float64
+ 12  Area_m2              102895 non-null  float64
+ 13  program              102895 non-null  object 
+ 14  ElementID            102895 non-null  object 
+ 15  Sub network rank     102895 non-null  int64  
+ 16  cLos                 102895 non-null  int64  
+ 17  MA                   102895 non-null  object 
+ 18  width                102895 non-null  float64
+ 19  pavment_type         102895 non-null  object 
+ 20  surface_type         102895 non-null  object 
+ 21  Urban_Rural          102895 non-null  object 
+dtypes: float64(5), int64(4), object(13)
+memory usage: 17.3+ MB

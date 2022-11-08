@@ -10,7 +10,7 @@ This repository contains code for running the meta-optimisation method to plot h
     ```
     pip install -r requirements.txt
     ```
-2. Run ```python3 setup.py install``` and ```python3 setup.py develop``` to set up local packages.
+2. Run ```python3 src/setup.py install``` or ```python3 src/setup.py develop``` to set up local packages. This step must be done in the folder ```Case2_fundingallocation```
 3. Download datasets from SharePoint into `Case2_fundingallocation\data` folder. Make sure paths match src.config file
 4. Run src.meta_opt.py file to generate solutions to project selection under budget constraint under a grid of penalties. Output is saved according to the config file.
 5. Run `2.0.0_plot.ipynb`, `4.0_result_exploration.ipynb` to explore the output. The level of service at the origin (all penalties = 0) is the "best" split under budget constraint.

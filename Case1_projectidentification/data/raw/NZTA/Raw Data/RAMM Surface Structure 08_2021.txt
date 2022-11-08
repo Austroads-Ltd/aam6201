@@ -1,0 +1,69 @@
+RangeIndex: 46015 entries, 0 to 46014
+Data columns (total 63 columns):
+ #   Column                      Non-Null Count  Dtype         
+---  ------                      --------------  -----         
+ 0   Road ID                     46015 non-null  object        
+ 1   Start                       46015 non-null  int64         
+ 2   End                         46015 non-null  int64         
+ 3   Length                      46015 non-null  int64         
+ 4   Start Name                  19005 non-null  object        
+ 5   End Name                    15597 non-null  object        
+ 6   Layer No                    46015 non-null  int64         
+ 7   Age                         46015 non-null  int64         
+ 8   Surface Area                0 non-null      float64       
+ 9   Width                       46015 non-null  float64       
+ 10  Surface Material            46015 non-null  object        
+ 11  Binder Type                 46015 non-null  object        
+ 12  Adhesion Type               24877 non-null  object        
+ 13  Additive Type               5941 non-null   object        
+ 14  Reseal Date                 0 non-null      float64       
+ 15  Surface Reason              36414 non-null  object        
+ 16  Structure ID                46015 non-null  int64         
+ 17  Structure Set               46015 non-null  object        
+ 18  Sectioned by                46015 non-null  object        
+ 19  Major Surface               46015 non-null  object        
+ 20  Carriageway Start           46015 non-null  int64         
+ 21  Treatment Length            0 non-null      float64       
+ 22  Start m before stretching   46015 non-null  int64         
+ 23  End m before stretching     46015 non-null  int64         
+ 24  Northing                    0 non-null      float64       
+ 25  Easting                     0 non-null      float64       
+ 26  Northing End                0 non-null      float64       
+ 27  Easting End                 0 non-null      float64       
+ 28  Surfacing Date              46015 non-null  datetime64[ns]
+ 29  Full Width                  46015 non-null  object        
+ 30  Start Depth                 46015 non-null  int64         
+ 31  Design Life                 42168 non-null  float64       
+ 32  Design Expiry               42168 non-null  float64       
+ 33  Default Life                44043 non-null  float64       
+ 34  Default Expiry              44043 non-null  float64       
+ 35  Modified Life               44008 non-null  float64       
+ 36  Mod. Default Expiry         44008 non-null  float64       
+ 37  Function                    46015 non-null  object        
+ 38  Surface Depth               46015 non-null  int64         
+ 39  1st Chip Size               46015 non-null  int64         
+ 40  2nd Chip Size               24526 non-null  float64       
+ 41  Source                      44790 non-null  object        
+ 42  Flux                        46015 non-null  int64         
+ 43  Cutter Quantity             46015 non-null  int64         
+ 44  Cutter Type                 25270 non-null  object        
+ 45  Adhesion Quantity           46015 non-null  float64       
+ 46  Additive Quantity           46015 non-null  float64       
+ 47  Polymer Type                8975 non-null   object        
+ 48  Polymer %                   15273 non-null  float64       
+ 49  Torsional Recovery          12427 non-null  float64       
+ 50  Softening Point             13556 non-null  float64       
+ 51  Residual Rate               32781 non-null  float64       
+ 52  Sealed Area                 46015 non-null  int64         
+ 53  Organisation                38758 non-null  object        
+ 54  PSV                         41017 non-null  float64       
+ 55  ALD                         30884 non-null  float64       
+ 56  Recycling                   46015 non-null  bool          
+ 57  Recycled Component          2050 non-null   float64       
+ 58  Surface Recycled Component  1277 non-null   object        
+ 59  FW Treatment                25779 non-null  object        
+ 60  Notes                       23015 non-null  object        
+ 61  Activity                    0 non-null      float64       
+ 62  Surface                     46015 non-null  int64         
+dtypes: bool(1), datetime64[ns](1), float64(25), int64(16), object(20)
+memory usage: 21.8+ MB

@@ -1,0 +1,59 @@
+RangeIndex: 235733 entries, 0 to 235732
+Data columns (total 53 columns):
+ #   Column                         Non-Null Count   Dtype         
+---  ------                         --------------   -----         
+ 0   Financial_Year_Name            235733 non-null  object        
+ 1   Road_Number                    235733 non-null  int64         
+ 2   Route_Name                     235733 non-null  object        
+ 3   Direction                      235733 non-null  object        
+ 4   Program_year                   235733 non-null  int64         
+ 5   Survey Date                    235733 non-null  datetime64[ns]
+ 6   Region_Name                    235733 non-null  object        
+ 7   LGA_Name                       235733 non-null  object        
+ 8   From_Measure                   235733 non-null  int64         
+ 9   To_Measure                     235733 non-null  int64         
+ 10  Length_KM                      235733 non-null  float64       
+ 11  Is_Distressed                  235733 non-null  object        
+ 12  Avg_Rgh_Iri                    136347 non-null  float64       
+ 13  Avg_Rgh_Sd                     135481 non-null  float64       
+ 14  HATI                           235733 non-null  float64       
+ 15  HATI_Sd                        135482 non-null  float64       
+ 16  Avg_Roughness                  235733 non-null  int64         
+ 17  Avg_Rutting_L                  232355 non-null  float64       
+ 18  Avg_Rutting_R                  233759 non-null  float64       
+ 19  Avg_Rutting                    235666 non-null  float64       
+ 20  Cracking                       135349 non-null  float64       
+ 21  Cracking_Flx                   0 non-null       float64       
+ 22  Cracking_Other                 0 non-null       float64       
+ 23  Patching                       0 non-null       float64       
+ 24  Pci                            0 non-null       float64       
+ 25  Potholes                       0 non-null       float64       
+ 26  Roughness_L                    235733 non-null  float64       
+ 27  Rouhhness_R                    235733 non-null  float64       
+ 28  Rutting_10_L                   101937 non-null  float64       
+ 29  Rutting_10_R                   56667 non-null   float64       
+ 30  Rutting_25_L                   12743 non-null   float64       
+ 31  Rutting_25_R                   3489 non-null    float64       
+ 32  Rutting_10                     152979 non-null  float64       
+ 33  Rutting_20                     43576 non-null   float64       
+ 34  Survey_Speed                   235733 non-null  int64         
+ 35  Texture_C                      235723 non-null  float64       
+ 36  Texture_L                      235718 non-null  float64       
+ 37  Texture_Loss                   193813 non-null  float64       
+ 38  Roughness_L_Sd                 135481 non-null  float64       
+ 39  Roughness_R_Sd                 135481 non-null  float64       
+ 40  Rutting_Sd_Lane                124390 non-null  float64       
+ 41  Rutting_Sd_Lwp                 109771 non-null  float64       
+ 42  Rutting_Sd_Rwp                 103290 non-null  float64       
+ 43  Sp_Texture_C                   136347 non-null  float64       
+ 44  Sp_Texture_L                   136347 non-null  float64       
+ 45  Sp_Texture_Loss                115867 non-null  float64       
+ 46  Latitude_Start                 235733 non-null  float64       
+ 47  Longitude_Start                235733 non-null  float64       
+ 48  End_Latitude                   136347 non-null  float64       
+ 49  Longitude_End                  136347 non-null  float64       
+ 50  Sign_Speed                     234426 non-null  float64       
+ 51  Road Maintenance Category      235733 non-null  int64         
+ 52  Pavement Maintenance Category  235674 non-null  float64       
+dtypes: datetime64[ns](1), float64(39), int64(7), object(6)
+memory usage: 95.3+ MB

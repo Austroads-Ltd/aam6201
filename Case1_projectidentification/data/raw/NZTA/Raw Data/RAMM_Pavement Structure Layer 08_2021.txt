@@ -1,0 +1,44 @@
+RangeIndex: 74328 entries, 0 to 74327
+Data columns (total 38 columns):
+ #   Column                      Non-Null Count  Dtype         
+---  ------                      --------------  -----         
+ 0   Road ID                     74328 non-null  object        
+ 1   Start                       74328 non-null  int64         
+ 2   End                         74328 non-null  int64         
+ 3   Offset                      74328 non-null  float64       
+ 4   Length                      74328 non-null  int64         
+ 5   Width                       74328 non-null  float64       
+ 6   Area                        74328 non-null  float64       
+ 7   Layer No.                   74328 non-null  int64         
+ 8   Start Depth                 74321 non-null  float64       
+ 9   Thickness                   74316 non-null  float64       
+ 10  Volume                      74316 non-null  float64       
+ 11  Source                      72868 non-null  object        
+ 12  Material                    73052 non-null  object        
+ 13  Accuracy                    74328 non-null  object        
+ 14  Age                         74328 non-null  int64         
+ 15  Life                        18852 non-null  float64       
+ 16  Expiry Year                 18852 non-null  float64       
+ 17  Structure ID                74328 non-null  int64         
+ 18  Structure Type              74328 non-null  object        
+ 19  dTIMS Layer                 44159 non-null  object        
+ 20  Treat Length                74328 non-null  int64         
+ 21  Layer                       74328 non-null  int64         
+ 22  Start Name                  14816 non-null  object        
+ 23  End Name                    10474 non-null  object        
+ 24  Layer Date                  74328 non-null  datetime64[ns]
+ 25  Layer Strength              9158 non-null   float64       
+ 26  CBR or UCS                  74328 non-null  object        
+ 27  Subgrade                    4373 non-null   object        
+ 28  Recycled                    74328 non-null  bool          
+ 29  Recycled Component          0 non-null      float64       
+ 30  Surface Recycled Component  0 non-null      float64       
+ 31  Specification               18856 non-null  object        
+ 32  Reconstructed               74328 non-null  object        
+ 33  Work Origin ID              5257 non-null   object        
+ 34  Plan No.                    16033 non-null  object        
+ 35  Design ESA                  13855 non-null  float64       
+ 36  FW Treatment                5125 non-null   object        
+ 37  Notes                       49403 non-null  object        
+dtypes: bool(1), datetime64[ns](1), float64(12), int64(8), object(16)
+memory usage: 21.1+ MB

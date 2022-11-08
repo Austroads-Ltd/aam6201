@@ -1,6 +1,6 @@
 import pandas as pd
 
-from data import DATA_DIR
+from src import DATA_DIR
 from typing import List, Tuple
 
 def make_constraint(treatment: str, feature_names: List[str]) -> Tuple[int]:

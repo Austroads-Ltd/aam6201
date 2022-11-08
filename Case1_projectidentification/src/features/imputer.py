@@ -2,8 +2,9 @@ import pandas as pd
 
 class GroupByImputer:
     """
-    Impute missing values by forward filling for each group as specified 
-    Does not fit on any dataset
+    Impute missing values by forward filling for each group as specified
+
+    Does not required fitting on any dataset
     """
     def __init__(self, group_subset: list, sort_subset: list):
         """Initalise the subset by which to group the dataframe and the columns with which to impute"""

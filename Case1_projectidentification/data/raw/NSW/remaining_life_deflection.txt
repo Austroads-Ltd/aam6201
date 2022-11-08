@@ -1,0 +1,12 @@
+RangeIndex: 238180 entries, 0 to 238179
+Data columns (total 6 columns):
+ #   Column                 Non-Null Count   Dtype  
+---  ------                 --------------   -----  
+ 0   elementid              238180 non-null  object 
+ 1   survey_year            238180 non-null  int64  
+ 2   subseg_remaining_life  238180 non-null  float64
+ 3   d0_annualised          238180 non-null  float64
+ 4   snp_annualised         238180 non-null  float64
+ 5   psr_annualised         238180 non-null  float64
+dtypes: float64(4), int64(1), object(1)
+memory usage: 10.9+ MB

@@ -4,7 +4,7 @@ Define constant config
 import pandas as pd
 import numpy as np
 
-from data import DATA_DIR # path to data directory
+from src import DATA_DIR # path to data directory
 from functools import partial
 from src.util import ConfigNamespace
 

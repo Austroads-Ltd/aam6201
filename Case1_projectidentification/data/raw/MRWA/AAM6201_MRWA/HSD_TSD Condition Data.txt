@@ -1,0 +1,52 @@
+RangeIndex: 964730 entries, 0 to 964729
+Data columns (total 46 columns):
+ #   Column                          Non-Null Count   Dtype  
+---  ------                          --------------   -----  
+ 0   Road                            964730 non-null  object 
+ 1   Cway                            964730 non-null  object 
+ 2   Start Chainage                  964730 non-null  float64
+ 3   End Chainage                    964730 non-null  float64
+ 4   Length                          964730 non-null  float64
+ 5   TrueSLK_From                    964730 non-null  float64
+ 6   TrueSLK_To                      964730 non-null  float64
+ 7   START_LATITUDE                  918535 non-null  float64
+ 8   START_LONGITUDE                 918535 non-null  float64
+ 9   Section width                   911995 non-null  float64
+ 10  Carriageway Type                964730 non-null  object 
+ 11  No of lanes                     913685 non-null  float64
+ 12  Speed Limit                     957870 non-null  float64
+ 13  Region                          964215 non-null  float64
+ 14  Link_Cat                        964215 non-null  object 
+ 15  Surface Type                    920645 non-null  object 
+ 16  Seal Type                       853410 non-null  object 
+ 17  Asphalt/Seal Type               920645 non-null  object 
+ 18  Asphalt surface thicknesss, mm  66815 non-null   float64
+ 19  Surface year                    911360 non-null  float64
+ 20  Pavement Type                   930465 non-null  object 
+ 21  Base Material                   949095 non-null  object 
+ 22  Pavement age                    949075 non-null  float64
+ 23  Rain (annual)                   964215 non-null  float64
+ 24  Rain Monthly                    964215 non-null  float64
+ 25  Min_Temp                        964215 non-null  float64
+ 26  Soil                            870595 non-null  object 
+ 27  AADT                            960570 non-null  float64
+ 28  Traf_Year                       960570 non-null  float64
+ 29  Perc_Heavy                      959450 non-null  float64
+ 30  Date of condition data          860917 non-null  object 
+ 31  Date of cracking data           177480 non-null  object 
+ 32  Data Type                       933290 non-null  object 
+ 33  Cway Roughness IRI              848677 non-null  float64
+ 34  Cway Rut depth mm               854264 non-null  float64
+ 35  Cway Cracking %                 180103 non-null  float64
+ 36  Date of deflection data         177480 non-null  object 
+ 37  D0                              877310 non-null  float64
+ 38  D200                            877310 non-null  float64
+ 39  D300                            877310 non-null  float64
+ 40  D450                            877310 non-null  float64
+ 41  D600                            877310 non-null  float64
+ 42  D750                            877310 non-null  float64
+ 43  D900                            877310 non-null  float64
+ 44  D1200                           877310 non-null  float64
+ 45  D1500                           877310 non-null  float64
+dtypes: float64(32), object(14)
+memory usage: 338.6+ MB

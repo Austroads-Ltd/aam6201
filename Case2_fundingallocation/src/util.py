@@ -4,10 +4,9 @@ import pandas as pd
 
 from src.config import CONFIG
 from typing import Dict
-from data import DATA_DIR
+from src import DATA_DIR
 from ortools.linear_solver.pywraplp import Solver, Variable
 from sklearn.preprocessing import MinMaxScaler
-from pathlib import Path
 
 def get_objective_value(
     df: pd.DataFrame, 
@@ -48,7 +47,7 @@ def make_solve_problem(solver: Solver, var_dict: Dict[int, Variable]):
     return pd.Series({idx: var.solution_value() for idx, var in var_dict.items()}) 
 
 def load_data() -> pd.DataFrame:
-    df = pd.read_csv(Path('.').resolve().parent / 'data' / 'NLTP_Unlimited_dTAGTL.csv')
+    df = pd.read_csv(DATA_DIR / 'NLTP_Unlimited_dTAGTL.csv')
     df.columns = df.columns.str.strip()
 
     # Mark Freight sections.

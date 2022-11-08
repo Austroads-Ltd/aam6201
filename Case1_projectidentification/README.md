@@ -11,15 +11,27 @@ This repository contains code for preprocessing raw data and modelling them to p
     pip install -r requirements.txt
     ```
 2. For macOS users, please install libomp if you have not installed it in the past using ```brew install libomp```
-3. Run ```python3 setup.py install``` and ```python3 setup.py develop``` to set up local packages.
-4. Download datasets from SharePoint into `Case1_projectidentification\data` folder.
+3. Run ```python3 src/setup.py install``` and ```python3 src/setup.py develop``` to set up local packages. This step must be done within the folder ```Case1_projectidentification```
+4. Download datasets from SharePoint into `Case1_projectidentification\data` folder. The downloaded data should fit in the existing data directory structure, and each file of the downloaded data should match its specification in the structure.
 5. Verify data paths match those specified by config files.
-6. Run all notebooks in increasing order of their numerical name for each jurisdiciton. Run notebooks in ```notebooks\shared``` directory after running the notebooks for the respective jursidictions.
+6. Run all notebooks in increasing order of their numerical name for each jurisdiciton. Run notebooks in ```notebooks\shared``` directory after running the notebooks for the respective jursidictions. The notebooks will also create new directories ```Case1_projectidentification\models``` and ```Case1_projectidentification\results``` to hold trained models and plots.
+7. At the start of each notebook (or script), the names of the files for saved results (i.e. processed data, trained models, etc.) are defined. The most important element is the `experiment_suffix` variable, which is appended after the template filename. Once this variable is defined, other path variables are based on them; for example, the root folder for saving trained models is `/models/trained/{jurisdiction_name}/{experiment_folder} + dir`. For the modelling notebooks, there is also the `experiment_prefix` variable which helps clarify the type of dataset used to train the model, i.e. a train/test/valid set. (Note: There is an issue where if `experiment_prefix` is set to `""`, there may be naming inconsistencies between notebooks. `experiment_suffix` should therefore be set to a default `default` if no clear name exists.
 
+8.
     The directory structure is as followed:
 
     ```
     .
+    +-- data
+    |   +-- raw <- raw data goes here
+    |   |   +-- jurisdiction_name
+    |   |   |   +-- file_name.text <- specification of the data
+    |   +-- interim <- data half-processed will go here
+    |   |   +-- jurisdiction_name
+    |   |   |   +-- file_name.text <- specification of the data
+    |   +-- processed <- data half-processed will go here
+    |   |   +-- jurisdiction_name
+    |   |   |   +-- file_name.text <- specification of the data
     +-- notebooks
     |   +-- jurisidiction_name
     |   |   +-- 2.0.0 name_preprocessing <- data preprocessing notebook for encoding, normalizing, filitering, etc.
@@ -34,7 +46,6 @@ This repository contains code for preprocessing raw data and modelling them to p
     |   +-- folders containing utility methods
     ```
 
-7. At the start of each notebook (or script), the names of the files for saved results (i.e. processed data, trained models, etc.) are defined. The most important element is the `experiment_suffix` variable, which is appended after the template filename. Once this variable is defined, other path variables are based on them; for example, the root folder for saving trained models is `/models/trained/{jurisdiction_name}/{experiment_folder} + dir`. For the modelling notebooks, there is also the `experiment_prefix` variable which helps clarify the type of dataset used to train the model, i.e. a train/test/valid set. (Note: There is an issue where if `experiment_prefix` is set to `""`, there may be naming inconsistencies between notebooks. `experiment_suffix` should therefore be set to a default `default` if no clear name exists.
 
 # Utilties
 ## Exporting notebooks as pdf

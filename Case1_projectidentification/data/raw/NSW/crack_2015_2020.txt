@@ -1,0 +1,9 @@
+RangeIndex: 357766 entries, 0 to 357765
+Data columns (total 3 columns):
+ #   Column       Non-Null Count   Dtype  
+---  ------       --------------   -----  
+ 0   ElementID    357766 non-null  object 
+ 1   survey_year  357766 non-null  int64  
+ 2   crack        357766 non-null  float64
+dtypes: float64(1), int64(1), object(1)
+memory usage: 8.2+ MB

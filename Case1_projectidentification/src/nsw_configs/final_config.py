@@ -1,6 +1,6 @@
 import pandas as pd
 
-from data import DATA_DIR # path to data directory
+from src import DATA_DIR # path to data directory
 from src.util import ConfigNamespace
 
 crack_data = DATA_DIR / "raw" / "NSW" / "crack_2015_2020.xlsx"

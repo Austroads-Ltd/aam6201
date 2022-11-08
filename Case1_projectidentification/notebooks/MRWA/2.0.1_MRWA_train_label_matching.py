@@ -11,7 +11,7 @@ from typing import Tuple, List
 from copy import deepcopy
 
 # load data
-from data import DATA_DIR
+from src import DATA_DIR
 
 DATASET = 'MRWA'
 experiment_suffix = 'mrwa_final'
@@ -207,7 +207,7 @@ def make_train_label_chunk(index_chunk: pd.DataFrame, *args, **kwargs):
     return flattened_train, flattened_labels, flattened_indices
         
 
-from data import DATA_DIR
+from src import DATA_DIR
 from joblib import Parallel, delayed
 import time
 

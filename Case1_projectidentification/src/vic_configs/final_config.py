@@ -2,7 +2,7 @@
 Define constant config
 """
 
-from data import DATA_DIR # path to data directory
+from src import DATA_DIR # path to data directory
 from src.util import ConfigNamespace
 
 if (DATA_DIR / "processed" / "VIC" / "final").exists() is False:

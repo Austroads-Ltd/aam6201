@@ -1,0 +1,34 @@
+RangeIndex: 9895 entries, 0 to 9894
+Data columns (total 28 columns):
+ #   Column              Non-Null Count  Dtype         
+---  ------              --------------  -----         
+ 0   Road                9895 non-null   object        
+ 1   Start               9895 non-null   int64         
+ 2   End                 9895 non-null   int64         
+ 3   ADT                 9895 non-null   int64         
+ 4   % Heavy Vehicles    9895 non-null   float64       
+ 5   VKT                 9895 non-null   int64         
+ 6   ESA per Day         9895 non-null   int64         
+ 7   Latest              9895 non-null   object        
+ 8   Count Status        9895 non-null   object        
+ 9   Count Date          9895 non-null   datetime64[ns]
+ 10  Carriageway No      9895 non-null   int64         
+ 11  Start Name          9132 non-null   object        
+ 12  End Name            9190 non-null   object        
+ 13  Urban/Rural         9895 non-null   object        
+ 14  Financial Year      9895 non-null   object        
+ 15  Peak Traffic ADT    0 non-null      float64       
+ 16  % Cars              9895 non-null   float64       
+ 17  % LCV               9895 non-null   float64       
+ 18  % MCV               9895 non-null   float64       
+ 19  % HCV I             9895 non-null   float64       
+ 20  % HCV II            9895 non-null   float64       
+ 21  % Bus               9895 non-null   int64         
+ 22  ESA MCV             9895 non-null   float64       
+ 23  ESA HCV I           9895 non-null   float64       
+ 24  ESA HCV II          9895 non-null   float64       
+ 25  ESA Heavy Vehicles  9895 non-null   float64       
+ 26  ESA Bus             9895 non-null   int64         
+ 27  Estimated AADT      0 non-null      float64       
+dtypes: datetime64[ns](1), float64(12), int64(8), object(7)
+memory usage: 2.1+ MB

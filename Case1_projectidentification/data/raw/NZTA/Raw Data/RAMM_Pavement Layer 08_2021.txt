@@ -1,0 +1,34 @@
+RangeIndex: 47190 entries, 0 to 47189
+Data columns (total 28 columns):
+ #   Column                      Non-Null Count  Dtype  
+---  ------                      --------------  -----  
+ 0   Road                        47190 non-null  object 
+ 1   Start                       47190 non-null  int64  
+ 2   End                         47190 non-null  int64  
+ 3   Length                      47190 non-null  int64  
+ 4   Width                       43272 non-null  float64
+ 5   Offset                      43340 non-null  float64
+ 6   Thickness                   43485 non-null  float64
+ 7   Area                        43272 non-null  float64
+ 8   Volume                      42892 non-null  float64
+ 9   Layer or Subgrade           47190 non-null  object 
+ 10  Source                      42866 non-null  object 
+ 11  Layer Material              42472 non-null  object 
+ 12  Reconstructed               47190 non-null  object 
+ 13  Estimated/Known             47190 non-null  object 
+ 14  Age                         47190 non-null  int64  
+ 15  Life                        14731 non-null  float64
+ 16  Expiry Year                 14731 non-null  float64
+ 17  Layer ID                    47190 non-null  int64  
+ 18  Start Name                  8143 non-null   object 
+ 19  End Name                    5867 non-null   object 
+ 20  Layer Strength              10570 non-null  float64
+ 21  CBR/UCS                     47190 non-null  object 
+ 22  Subgrade Material           5968 non-null   object 
+ 23  Recycled                    47190 non-null  bool   
+ 24  Recycled Component          170 non-null    float64
+ 25  Surface Recycled Component  113 non-null    object 
+ 26  Specification               14984 non-null  object 
+ 27  Design ESA                  11607 non-null  float64
+dtypes: bool(1), float64(10), int64(5), object(12)
+memory usage: 9.8+ MB
